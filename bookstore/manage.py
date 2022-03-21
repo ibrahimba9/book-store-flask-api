@@ -3,7 +3,7 @@ import unittest
 from app import blueprint
 from app.main import create_app
 
-rest_port = 5012
+rest_port = 5026
 
 app = create_app('dev')
 app.register_blueprint(blueprint)
